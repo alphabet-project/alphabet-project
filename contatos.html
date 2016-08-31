@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <!-- META SECTION -->
+        <title>Alphabet - Dashboard</title>            
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <!-- END META SECTION -->
+        
+        <!-- CSS INCLUDE -->        
+        <link rel="stylesheet" type="text/css" id="theme" href="css/theme-default.css"/>
+        <!-- EOF CSS INCLUDE -->                                    
+    </head>
+    <body>
+        <!-- START PAGE CONTAINER -->
+        <div class="page-container">
+            
+            <!-- START PAGE SIDEBAR -->
+            <div class="page-sidebar">
+                <!-- START X-NAVIGATION -->
+                <ul class="x-navigation">
+                    <li class="xn-logo">
+                        <a href="index.html">Alphabet</a>
+                        <a href="#" class="x-navigation-control"></a>
+                    </li>
+                    <li class="xn-profile">
+                        <a href="#" class="profile-mini">
+                            <img src="assets/images/users/no-image.jpg" alt="Iago Vitoriano"/>
+                        </a>
+                        <div class="profile">
+                            <div class="profile-image">
+                                <img src="assets/images/users/no-image.jpg" alt="Iago Vitoriano"/>
+                            </div>
+                            <div class="profile-data">
+                                <div class="profile-data-name">Iago Vitoriano</div>
+                                <div class="profile-data-title">Desenvolvedor</div>
+                            </div>
+                            <div class="profile-controls">
+                                <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                                <a href="caixa-de-mensagens.html" class="profile-control-right"><span class="fa fa-envelope"></span></a>
+                            </div>
+                        </div>                                                                        
+                    </li>
+                    <li class="xn-title">Navegação</li>
+                    <li>
+                        <a href="index.html"><span class="fa fa-desktop"></span> <span class="xn-text">Dashboard</span></a>       
+                    </li>
+                    <li>
+                        <a href="tarefas.html"><span class="fa fa-edit"></span> Tarefas</a>
+                    </li>
+                    <li>
+                        <a href="calendario.html"><span class="fa fa-calendar"></span> <span class="xn-text">Calendário</span></a>      
+                    </li>
+                    <li class="active">
+                        <a href="contatos.html"><span class="fa fa-users"></span> <span class="xn-text">Contatos</span></a>       
+                    </li>
+                    <li>
+                        <a href="caixa-de-mensagens.html"><span class="fa fa-envelope"></span> <span class="xn-text">Caixa de Mensagens</span></a>       
+                    </li>
+                    <li>
+                        <a href="faq.html"><span class="fa fa-question-circle"></span> FAQ</a>
+                    </li>
+                </ul>
+                <!-- END X-NAVIGATION -->
+            </div>
+            <!-- END PAGE SIDEBAR -->
+            
+            <!-- PAGE CONTENT -->
+            <div class="page-content">
+                
+                <!-- START X-NAVIGATION VERTICAL -->
+                <ul class="x-navigation x-navigation-horizontal x-navigation-panel">
+                    <!-- TOGGLE NAVIGATION -->
+                    <li class="xn-icon-button">
+                        <a href="#" class="x-navigation-minimize"><span class="fa fa-dedent"></span></a>
+                    </li>
+                    <!-- END TOGGLE NAVIGATION -->
+                    <!-- SEARCH -->
+                    <li class="xn-search">
+                        <form role="form">
+                            <input type="text" name="search" placeholder="Pesquisar..."/>
+                        </form>
+                    </li>   
+                    <!-- END SEARCH -->
+                    <!-- SIGN OUT -->
+                    <li class="xn-icon-button pull-right">
+                        <a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-sign-out"></span></a>                        
+                    </li> 
+                    <!-- END SIGN OUT -->
+                    <!-- MESSAGES -->
+                    <li class="xn-icon-button pull-right">
+                        <a href="#"><span class="fa fa-comments"></span></a>
+                        <div class="informer informer-danger">4</div>
+                        <div class="panel panel-primary animated zoomIn xn-drop-left xn-panel-dragging">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><span class="fa fa-comments"></span> Mensagens</h3>                                
+                                <div class="pull-right">
+                                    <span class="label label-danger">4 Notificações</span>
+                                </div>
+                            </div>
+                            <div class="panel-body list-group list-group-contacts scroll" style="height: 200px;">
+                                <a href="#" class="list-group-item">
+                                    <div class="list-group-status status-online"></div>
+                                    <img src="assets/images/users/no-image.jpg" class="pull-left" alt="John Doe"/>
+                                    <span class="contacts-title">Pedro Barcha</span>
+                                    <p>Olá, Iago! Boa tarde, gostaria de...</p>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <div class="list-group-status status-away"></div>
+                                    <img src="assets/images/users/no-image.jpg" class="pull-left" alt="Dmitry Ivaniuk"/>
+                                    <span class="contacts-title">Victor Hugo</span>
+                                    <p>Bom dia, preciso de sua ajuda.</p>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <div class="list-group-status status-away"></div>
+                                    <img src="assets/images/users/no-image.jpg" class="pull-left" alt="Nadia Ali"/>
+                                    <span class="contacts-title">Vinicius Ricardo</span>
+                                    <p>O Design está pronto, segue em anexo.</p>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <div class="list-group-status status-offline"></div>
+                                    <img src="assets/images/users/no-image.jpg" class="pull-left" alt="Darth Vader"/>
+                                    <span class="contacts-title">Vinicius Ricardo</span>
+                                    <p>Olá, a minha conta está ativa</p>
+                                </a>
+                            </div>     
+                            <div class="panel-footer text-center">
+                                <a href="pages-messages.html">Mostrar tudo</a>
+                            </div>                            
+                        </div>                        
+                    </li>
+                    <!-- END MESSAGES -->
+                    <!-- TASKS -->
+                    <li class="xn-icon-button pull-right">
+                        <a href="#"><span class="fa fa-tasks"></span></a>
+                        <div class="informer informer-warning">3</div>
+                        <div class="panel panel-primary animated zoomIn xn-drop-left xn-panel-dragging">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><span class="fa fa-tasks"></span> Tarefas</h3>                                
+                                <div class="pull-right">
+                                    <span class="label label-warning">3 ativas</span>
+                                </div>
+                            </div>
+                            <div class="panel-body list-group scroll" style="height: 200px;">                                
+                                <a class="list-group-item" href="#">
+                                    <strong>Atualizar o sistema</strong>
+                                    <div class="progress progress-small progress-striped active">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">50%</div>
+                                    </div>
+                                    <small class="text-muted">Iago Vitoriano, 13 Ago 2016 / 50%</small>
+                                </a>
+                                <a class="list-group-item" href="#">
+                                    <strong>Organizar o projeto</strong>
+                                    <div class="progress progress-small progress-striped active">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">80%</div>
+                                    </div>
+                                    <small class="text-muted">Pedro Barcha, 12 Ago 2016 / 80%</small>
+                                </a>
+                                <a class="list-group-item" href="#">
+                                    <strong>Colocar no ar</strong>
+                                    <div class="progress progress-small progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">95%</div>
+                                    </div>
+                                    <small class="text-muted">Victor Hugo, 10 Ago 2016 / 95%</small>
+                                </a>
+                                <a class="list-group-item" href="#">
+                                    <strong>Refazer a logo alphabet.</strong>
+                                    <div class="progress progress-small">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">100%</div>
+                                    </div>
+                                    <small class="text-muted">Vinicius Ricardo, 09 Ago 2016 /</small><small class="text-success"> Concluído</small>
+                                </a>                                
+                            </div>     
+                            <div class="panel-footer text-center">
+                                <a href="pages-tasks.html">Mostrar tudo</a>
+                            </div>                            
+                        </div>                        
+                    </li>
+                    <!-- END TASKS -->
+                </ul>
+                <!-- END X-NAVIGATION VERTICAL -->                  
+                
+                <!-- START BREADCRUMB -->
+                <ul class="breadcrumb">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Alunos</a></li>
+                    <li class="active">Lista de endereços   </li>
+                </ul>
+                <!-- END BREADCRUMB -->                                                
+                
+                <!-- PAGE TITLE -->
+                <div class="page-title">                    
+                    <h2><span class="fa fa-users"></span> Lista de endereços <small>139 contatos</small></h2>
+                </div>
+                <!-- END PAGE TITLE -->                
+                
+                <!-- PAGE CONTENT WRAPPER -->
+                <div class="page-content-wrap">
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <p>Use para procurar contatos. Você pode pesquisar por: nome, endereço, telefone. Além disso você também pode utilizar a busca avançada.</p>
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <div class="col-md-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon">
+                                                        <span class="fa fa-search"></span>
+                                                    </div>
+                                                    <input type="text" class="form-control" placeholder="Por quem você está procurando?"/>
+                                                    <div class="input-group-btn">
+                                                        <button class="btn btn-primary">Pesquisar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <button class="btn btn-success btn-block"><span class="fa fa-plus"></span> Adicionar novo contato</button>
+                                            </div>
+                                        </div>
+                                    </form>                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-3">
+                            <!-- CONTACT ITEM -->
+                            <div class="panel panel-default">
+                                <div class="panel-body profile">
+                                    <div class="profile-image">
+                                        <img src="assets/images/users/no-image.jpg" alt="Nadia Ali"/>
+                                    </div>
+                                    <div class="profile-data">
+                                        <div class="profile-data-name">Iago Vitoriano</div>
+                                        <div class="profile-data-title">Ciência da Computação</div>
+                                    </div>
+                                    <div class="profile-controls">
+                                        <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                                        <a href="#" class="profile-control-right"><span class="fa fa-phone"></span></a>
+                                    </div>
+                                </div>                                
+                                <div class="panel-body">                                    
+                                    <div class="contact-info">
+                                        <p><small>Celular</small><br/>(11) 95116-9578</p>
+                                        <p><small>E-mail</small><br/>iago_vitoriano@outlook.com</p>
+                                        <p><small>Endereço</small><br/>Av. Capitão Casa, S.B.C, SP</p>                                   
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- END CONTACT ITEM -->
+                        </div>
+                        <div class="col-md-3">
+                            <!-- CONTACT ITEM -->
+                            <div class="panel panel-default">
+                                <div class="panel-body profile">
+                                    <div class="profile-image">
+                                        <img src="assets/images/users/no-image.jpg" alt="Nadia Ali"/>
+                                    </div>
+                                    <div class="profile-data">
+                                        <div class="profile-data-name">Iago Vitoriano</div>
+                                        <div class="profile-data-title">Ciência da Computação</div>
+                                    </div>
+                                    <div class="profile-controls">
+                                        <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                                        <a href="#" class="profile-control-right"><span class="fa fa-phone"></span></a>
+                                    </div>
+                                </div>                                
+                                <div class="panel-body">                                    
+                                    <div class="contact-info">
+                                        <p><small>Celular</small><br/>(11) 95116-9578</p>
+                                        <p><small>E-mail</small><br/>iago_vitoriano@outlook.com</p>
+                                        <p><small>Endereço</small><br/>Av. Capitão Casa, S.B.C, SP</p>                                   
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- END CONTACT ITEM -->
+                        </div>
+                        <div class="col-md-3">
+                            <!-- CONTACT ITEM -->
+                            <div class="panel panel-default">
+                                <div class="panel-body profile">
+                                    <div class="profile-image">
+                                        <img src="assets/images/users/no-image.jpg" alt="Nadia Ali"/>
+                                    </div>
+                                    <div class="profile-data">
+                                        <div class="profile-data-name">Iago Vitoriano</div>
+                                        <div class="profile-data-title">Ciência da Computação</div>
+                                    </div>
+                                    <div class="profile-controls">
+                                        <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                                        <a href="#" class="profile-control-right"><span class="fa fa-phone"></span></a>
+                                    </div>
+                                </div>                                
+                                <div class="panel-body">                                    
+                                    <div class="contact-info">
+                                        <p><small>Celular</small><br/>(11) 95116-9578</p>
+                                        <p><small>E-mail</small><br/>iago_vitoriano@outlook.com</p>
+                                        <p><small>Endereço</small><br/>Av. Capitão Casa, S.B.C, SP</p>                                   
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- END CONTACT ITEM -->
+                        </div>
+                        <div class="col-md-3">
+                            <!-- CONTACT ITEM -->
+                            <div class="panel panel-default">
+                                <div class="panel-body profile">
+                                    <div class="profile-image">
+                                        <img src="assets/images/users/no-image.jpg" alt="Nadia Ali"/>
+                                    </div>
+                                    <div class="profile-data">
+                                        <div class="profile-data-name">Iago Vitoriano</div>
+                                        <div class="profile-data-title">Ciência da Computação</div>
+                                    </div>
+                                    <div class="profile-controls">
+                                        <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                                        <a href="#" class="profile-control-right"><span class="fa fa-phone"></span></a>
+                                    </div>
+                                </div>                                
+                                <div class="panel-body">                                    
+                                    <div class="contact-info">
+                                        <p><small>Celular</small><br/>(11) 95116-9578</p>
+                                        <p><small>E-mail</small><br/>iago_vitoriano@outlook.com</p>
+                                        <p><small>Endereço</small><br/>Av. Capitão Casa, S.B.C, SP</p>                                   
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- END CONTACT ITEM -->
+                        </div>
+                        <div class="col-md-3">
+                            <!-- CONTACT ITEM -->
+                            <div class="panel panel-default">
+                                <div class="panel-body profile">
+                                    <div class="profile-image">
+                                        <img src="assets/images/users/no-image.jpg" alt="Nadia Ali"/>
+                                    </div>
+                                    <div class="profile-data">
+                                        <div class="profile-data-name">Iago Vitoriano</div>
+                                        <div class="profile-data-title">Ciência da Computação</div>
+                                    </div>
+                                    <div class="profile-controls">
+                                        <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                                        <a href="#" class="profile-control-right"><span class="fa fa-phone"></span></a>
+                                    </div>
+                                </div>                                
+                                <div class="panel-body">                                    
+                                    <div class="contact-info">
+                                        <p><small>Celular</small><br/>(11) 95116-9578</p>
+                                        <p><small>E-mail</small><br/>iago_vitoriano@outlook.com</p>
+                                        <p><small>Endereço</small><br/>Av. Capitão Casa, S.B.C, SP</p>                                   
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- END CONTACT ITEM -->
+                        </div>
+                        <div class="col-md-3">
+                            <!-- CONTACT ITEM -->
+                            <div class="panel panel-default">
+                                <div class="panel-body profile">
+                                    <div class="profile-image">
+                                        <img src="assets/images/users/no-image.jpg" alt="Nadia Ali"/>
+                                    </div>
+                                    <div class="profile-data">
+                                        <div class="profile-data-name">Iago Vitoriano</div>
+                                        <div class="profile-data-title">Ciência da Computação</div>
+                                    </div>
+                                    <div class="profile-controls">
+                                        <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                                        <a href="#" class="profile-control-right"><span class="fa fa-phone"></span></a>
+                                    </div>
+                                </div>                                
+                                <div class="panel-body">                                    
+                                    <div class="contact-info">
+                                        <p><small>Celular</small><br/>(11) 95116-9578</p>
+                                        <p><small>E-mail</small><br/>iago_vitoriano@outlook.com</p>
+                                        <p><small>Endereço</small><br/>Av. Capitão Casa, S.B.C, SP</p>                                   
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- END CONTACT ITEM -->
+                        </div>
+                        <div class="col-md-3">
+                            <!-- CONTACT ITEM -->
+                            <div class="panel panel-default">
+                                <div class="panel-body profile">
+                                    <div class="profile-image">
+                                        <img src="assets/images/users/no-image.jpg" alt="Nadia Ali"/>
+                                    </div>
+                                    <div class="profile-data">
+                                        <div class="profile-data-name">Iago Vitoriano</div>
+                                        <div class="profile-data-title">Ciência da Computação</div>
+                                    </div>
+                                    <div class="profile-controls">
+                                        <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                                        <a href="#" class="profile-control-right"><span class="fa fa-phone"></span></a>
+                                    </div>
+                                </div>                                
+                                <div class="panel-body">                                    
+                                    <div class="contact-info">
+                                        <p><small>Celular</small><br/>(11) 95116-9578</p>
+                                        <p><small>E-mail</small><br/>iago_vitoriano@outlook.com</p>
+                                        <p><small>Endereço</small><br/>Av. Capitão Casa, S.B.C, SP</p>                                   
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- END CONTACT ITEM -->
+                        </div>
+                        <div class="col-md-3">
+                            <!-- CONTACT ITEM -->
+                            <div class="panel panel-default">
+                                <div class="panel-body profile">
+                                    <div class="profile-image">
+                                        <img src="assets/images/users/no-image.jpg" alt="Nadia Ali"/>
+                                    </div>
+                                    <div class="profile-data">
+                                        <div class="profile-data-name">Iago Vitoriano</div>
+                                        <div class="profile-data-title">Ciência da Computação</div>
+                                    </div>
+                                    <div class="profile-controls">
+                                        <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                                        <a href="#" class="profile-control-right"><span class="fa fa-phone"></span></a>
+                                    </div>
+                                </div>                                
+                                <div class="panel-body">                                    
+                                    <div class="contact-info">
+                                        <p><small>Celular</small><br/>(11) 95116-9578</p>
+                                        <p><small>E-mail</small><br/>iago_vitoriano@outlook.com</p>
+                                        <p><small>Endereço</small><br/>Av. Capitão Casa, S.B.C, SP</p>                                   
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- END CONTACT ITEM -->
+                        </div>                        
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="pagination pagination-sm pull-right push-down-10 push-up-10">
+                                <li class="disabled"><a href="#">«</a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>                                    
+                                <li><a href="#">»</a></li>
+                            </ul>                            
+                        </div>
+                    </div>
+
+                </div>
+                <!-- END PAGE CONTENT WRAPPER -->                                                 
+            </div>            
+            <!-- END PAGE CONTENT -->
+        </div>
+        <!-- END PAGE CONTAINER -->
+
+        <!-- MESSAGE BOX-->
+        <div class="message-box animated fadeIn" data-sound="alert" id="mb-signout">
+            <div class="mb-container">
+                <div class="mb-middle">
+                    <div class="mb-title"><span class="fa fa-sign-out"></span><strong>Sair</strong> ?</div>
+                    <div class="mb-content">
+                        <p>Tem certeza que deseja sair?</p>                    
+                        <p>Pressione NÃO se você deseja cancelar. Pressione SIM para sair do usuário atual.</p>
+                    </div>
+                    <div class="mb-footer">
+                        <div class="pull-right">
+                            <a href="login.html" class="btn btn-success btn-lg">Sim</a>
+                            <button class="btn btn-default btn-lg mb-control-close">Não</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MESSAGE BOX-->
+
+        <!-- START PRELOADS -->
+        <audio id="audio-alert" src="audio/alert.mp3" preload="auto"></audio>
+        <audio id="audio-fail" src="audio/fail.mp3" preload="auto"></audio>
+        <!-- END PRELOADS -->          
+        
+    <!-- START SCRIPTS -->
+        <!-- START PLUGINS -->
+        <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="js/plugins/jquery/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>        
+        <!-- END PLUGINS -->
+
+        <!-- START THIS PAGE PLUGINS-->        
+        <script type='text/javascript' src='js/plugins/icheck/icheck.min.js'></script>
+        <script type="text/javascript" src="js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+        <!-- END THIS PAGE PLUGINS-->        
+
+        <!-- START TEMPLATE -->
+        <script type="text/javascript" src="js/settings.js"></script>
+        
+        <script type="text/javascript" src="js/plugins.js"></script>        
+        <script type="text/javascript" src="js/actions.js"></script>        
+        <!-- END TEMPLATE -->
+
+    <!-- END SCRIPTS -->         
+    </body>
+</html>
+
+
+
+
+
+
